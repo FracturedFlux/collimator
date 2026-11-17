@@ -1,0 +1,2 @@
+$data modify storage collimator:storage players.$(pid).build append value \
+[{translate:"collimator.space.$(prefix)",font:"collimator:space"},$(value),{translate:"collimator.space.$(symbol)",font:"collimator:space"},{translate:"collimator.space.$(suffix)",font:"collimator:space"}]

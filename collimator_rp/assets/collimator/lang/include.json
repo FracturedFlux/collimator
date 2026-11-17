@@ -1,0 +1,6 @@
+{
+  "collimator.warning.no_id": "Invalid command: Missing argument \"id\"",
+  "collimator.warning.no_width": "Invalid command: Missing argument \"width\"",
+  "collimator.warning.bad_width": "Invalid command: \"width\" cannot be 0. It must be the length of your input text in pixels",
+  "collimator.warning.no_value": "Invalid command: Missing argument \"value\""
+}

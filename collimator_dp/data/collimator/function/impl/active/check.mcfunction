@@ -1,0 +1,3 @@
+$execute if data storage collimator:storage players.$(pid).build[0] run return run function collimator:impl/active/display with storage collimator:storage players.$(pid)
+$execute unless data storage collimator:storage players.$(pid).index[0] run function collimator:impl/active/reset {type:"active"}
+execute if entity @s[tag=collimator.displaying] run function collimator:impl/active/reset {type:"displaying"}

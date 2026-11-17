@@ -1,0 +1,1 @@
+$data modify storage collimator:storage players.$(pid) set value {build:[],index:[]}

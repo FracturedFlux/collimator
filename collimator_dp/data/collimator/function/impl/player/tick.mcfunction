@@ -1,0 +1,1 @@
+execute if entity @s[tag=collimator.active] run function collimator:impl/active/main

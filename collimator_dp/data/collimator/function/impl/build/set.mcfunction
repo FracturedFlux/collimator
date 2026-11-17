@@ -1,0 +1,3 @@
+$execute if data storage collimator:storage players.$(pid).index[{id:"$(id)"}] run data modify storage collimator:storage players.$(pid).index[{id:"$(id)"}] set from storage collimator:storage temp.build
+$execute unless data storage collimator:storage players.$(pid).index[{id:"$(id)"}] run data modify storage collimator:storage players.$(pid).index append from storage collimator:storage temp.build
+function collimator:impl/build/main with storage collimator:storage temp
