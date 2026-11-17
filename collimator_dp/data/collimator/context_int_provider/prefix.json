@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:mul",
+  "inputs": [
+    {
+      "type": "minecraft:div",
+      "left": {
+        "type": "minecraft:storage",
+        "storage": "collimator:storage",
+        "path": "temp.index[0].width"
+      },
+      "right": 2
+    },
+    -1
+  ]
+}
