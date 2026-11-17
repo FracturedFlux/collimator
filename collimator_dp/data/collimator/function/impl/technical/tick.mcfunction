@@ -1,1 +1,1 @@
-execute as @a run function collimator:impl/player/tick
+execute as @a[tag=collimator.active] run function collimator:impl/active/main
